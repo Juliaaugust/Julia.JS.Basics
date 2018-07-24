@@ -1,0 +1,9 @@
+@import url(reset.css);
+body{
+	background-color: lightblue;
+}
+.colored {
+	width: 500px;
+	height: 300px;
+	background-color: pink;
+}
