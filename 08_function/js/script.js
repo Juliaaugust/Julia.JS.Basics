@@ -17,4 +17,4 @@ function sayName (name){
 let myName = prompt('Как вас зовут?');
 alert(sayName(myName));
 
-console.log(sayName('Юля'));
+console.log(sayName('Юлечка'));
