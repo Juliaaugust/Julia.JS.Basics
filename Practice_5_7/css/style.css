@@ -1,0 +1,17 @@
+@import url(reset.css);
+body{
+	background-color: #AFEEEE;
+}
+
+h1 {
+	color: #006400;
+	background-color: #66CDAA;
+	font-size: 2em;
+}
+
+.column {
+	margin-bottom: 20px;
+  	margin-right: 20px;
+  	padding: 10px;
+  	display: inline-block;
+}

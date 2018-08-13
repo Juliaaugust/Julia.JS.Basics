@@ -1,0 +1,12 @@
+@import url(reset.css);
+body{
+	background-color: lightblue;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 18pt;
+}
