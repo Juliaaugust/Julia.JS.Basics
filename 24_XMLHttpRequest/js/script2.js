@@ -1,3 +1,5 @@
+window.onload = function () {
+
 const APIKey = '4818b8bc8ecf571bb94d0c3c8bda8a6c';
 
 const city = document.getElementById("city");
@@ -25,6 +27,8 @@ weatherBtn.onclick = function () {
 		var DATA = JSON.parse(xhr.responseText);
 		console.log(DATA);
 
+		city.style.outline = null;
+
 		let temp = document.getElementById("temp");
 		let press = document.getElementById("press");
 		let desc = document.getElementById("desc");
@@ -34,4 +38,4 @@ weatherBtn.onclick = function () {
 		desc.innerHTML = "Weather: " + DATA.weather[0].description;
 	}
 };
-
+};
